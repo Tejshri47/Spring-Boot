@@ -1,292 +1,203 @@
-2020-09-30 11:46:55.151  INFO 6264 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 6264 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 11:46:55.165  INFO 6264 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 11:46:56.781  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 11:46:56.783  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 11:46:56.949  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154ms. Found 1 repository interfaces.
-2020-09-30 11:46:56.974  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 11:46:56.975  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 11:46:57.001  INFO 6264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 1 repository interfaces.
-2020-09-30 11:46:58.019  INFO 6264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cffb82c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 11:46:58.894  INFO 6264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-09-30 11:46:58.958  INFO 6264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 11:46:58.959  INFO 6264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-09-30 11:46:59.503  INFO 6264 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-09-30 11:46:59.534  INFO 6264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 11:46:59.537  INFO 6264 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4235 ms
-2020-09-30 11:47:00.223  INFO 6264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 11:47:00.230  WARN 6264 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2020-09-30 11:47:00.628  INFO 6264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 11:47:00.745  INFO 6264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2020-10-04 09:43:31.884  INFO 96 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 96 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 09:43:31.900  INFO 96 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 09:43:33.760  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 09:43:33.763  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 09:43:34.003  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 229ms. Found 1 repository interfaces.
+2020-10-04 09:43:34.038  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 09:43:34.039  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 09:43:34.133  INFO 96 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2020-10-04 09:43:35.303  INFO 96 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$107b837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-04 09:43:36.293  INFO 96 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-04 09:43:36.377  INFO 96 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-04 09:43:36.379  INFO 96 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-10-04 09:43:36.986  INFO 96 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-04 09:43:37.002  INFO 96 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-04 09:43:37.003  INFO 96 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4921 ms
+2020-10-04 09:43:37.523  INFO 96 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-04 09:43:37.529  WARN 96 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-10-04 09:43:40.829  INFO 96 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-04 09:43:41.098  INFO 96 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-09-30 11:47:00.993  INFO 6264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
-2020-09-30 11:47:00.997  INFO 6264 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-09-30 11:47:01.342  INFO 6264 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-09-30 11:47:01.607  INFO 6264 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2020-09-30 11:47:03.191  INFO 6264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 11:47:05.561  INFO 6264 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 11:47:05.723  WARN 6264 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-30 11:47:06.012  INFO 6264 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-09-30 11:47:06.528  INFO 6264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-09-30 11:47:06.537  INFO 6264 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 12.478 seconds (JVM running for 14.201)
-2020-09-30 11:48:25.571  INFO 6264 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 11:48:25.572  INFO 6264 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 11:48:25.589  INFO 6264 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-09-30 11:48:25.692  INFO 6264 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method is called 
-2020-09-30 11:48:25.792  INFO 6264 --- [http-nio-8081-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2020-09-30 12:11:35.179  INFO 6264 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-09-30 12:11:35.194  INFO 6264 --- [RMI TCP Connection(27)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:11:35.197  INFO 6264 --- [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:11:35.205  INFO 6264 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-09-30 12:11:35.302  INFO 6264 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-09-30 12:16:38.014  INFO 7844 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 7844 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 12:16:38.022  INFO 7844 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 12:16:39.630  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:16:39.632  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:16:39.759  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 1 repository interfaces.
-2020-09-30 12:16:39.780  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:16:39.780  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:16:39.803  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
-2020-09-30 12:16:40.695  INFO 7844 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$782f4881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 12:16:41.582  INFO 7844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-09-30 12:16:41.646  INFO 7844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:16:41.647  INFO 7844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-09-30 12:16:42.137  INFO 7844 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-09-30 12:16:42.158  INFO 7844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:16:42.188  INFO 7844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4066 ms
-2020-09-30 12:16:42.920  INFO 7844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 12:16:42.926  WARN 7844 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2020-09-30 12:16:43.279  INFO 7844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 12:16:43.407  INFO 7844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2020-10-04 09:43:41.505  INFO 96 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-10-04 09:43:41.514  INFO 96 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-04 09:43:42.141  INFO 96 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-04 09:43:42.536  INFO 96 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-10-04 09:43:45.978  INFO 96 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 09:43:47.988  INFO 96 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 09:43:48.409  WARN 96 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-04 09:43:48.783  INFO 96 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-04 09:43:49.943  INFO 96 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-04 09:43:49.961  INFO 96 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 18.955 seconds (JVM running for 20.568)
+2020-10-04 09:44:33.248  INFO 96 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-04 09:44:33.249  INFO 96 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-04 09:44:33.275  INFO 96 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2020-10-04 09:45:03.277  WARN 96 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'aid' is not present]
+2020-10-04 09:46:36.035  INFO 96 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 09:46:36.038  INFO 96 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 09:46:36.043  INFO 96 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-04 09:46:36.045  INFO 96 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 09:46:36.052  INFO 96 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-04 09:46:36.155  INFO 96 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 09:48:33.546  INFO 4116 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 4116 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 09:48:33.553  INFO 4116 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 09:48:35.087  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 09:48:35.089  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 09:48:35.290  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190ms. Found 1 repository interfaces.
+2020-10-04 09:48:35.315  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 09:48:35.315  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 09:48:35.345  INFO 4116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 1 repository interfaces.
+2020-10-04 09:48:36.314  INFO 4116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$72647387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-04 09:48:37.238  INFO 4116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-04 09:48:37.304  INFO 4116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-04 09:48:37.305  INFO 4116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-10-04 09:48:38.007  INFO 4116 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-04 09:48:38.023  INFO 4116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-04 09:48:38.024  INFO 4116 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4360 ms
+2020-10-04 09:48:38.473  INFO 4116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-04 09:48:38.479  WARN 4116 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-10-04 09:48:39.227  INFO 4116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-04 09:48:39.614  INFO 4116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-09-30 12:16:43.669  INFO 7844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
-2020-09-30 12:16:43.685  INFO 7844 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-09-30 12:16:44.038  INFO 7844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-09-30 12:16:44.319  INFO 7844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2020-09-30 12:16:46.570  INFO 7844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:16:48.509  INFO 7844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:16:48.940  WARN 7844 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-30 12:16:49.522  INFO 7844 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-09-30 12:16:50.744  INFO 7844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-09-30 12:16:50.758  INFO 7844 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 13.616 seconds (JVM running for 16.652)
-2020-09-30 12:18:23.218  INFO 7844 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-09-30 12:18:23.231  INFO 7844 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:18:23.234  INFO 7844 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:18:23.241  INFO 7844 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-09-30 12:18:23.340  INFO 7844 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-09-30 12:18:35.405  INFO 7032 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 7032 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 12:18:35.412  INFO 7032 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 12:18:37.001  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:18:37.003  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:18:37.123  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 1 repository interfaces.
-2020-09-30 12:18:37.144  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:18:37.145  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:18:37.170  INFO 7032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
-2020-09-30 12:18:38.007  INFO 7032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$143572e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 12:18:38.848  INFO 7032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-09-30 12:18:38.912  INFO 7032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:18:38.912  INFO 7032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-09-30 12:18:39.455  INFO 7032 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-09-30 12:18:39.471  INFO 7032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:18:39.472  INFO 7032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3918 ms
-2020-09-30 12:18:39.880  INFO 7032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 12:18:39.885  WARN 7032 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2020-09-30 12:18:40.263  INFO 7032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 12:18:40.494  INFO 7032 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2020-10-04 09:48:40.001  INFO 4116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-10-04 09:48:40.006  INFO 4116 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-04 09:48:40.473  INFO 4116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-04 09:48:40.818  INFO 4116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-10-04 09:48:42.600  INFO 4116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 09:48:43.900  INFO 4116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 09:48:43.983  WARN 4116 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-04 09:48:44.249  INFO 4116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-04 09:48:44.734  INFO 4116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-04 09:48:44.741  INFO 4116 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 12.044 seconds (JVM running for 14.208)
+2020-10-04 09:48:52.288  INFO 4116 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-04 09:48:52.296  INFO 4116 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-04 09:48:52.346  INFO 4116 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2020-10-04 09:48:52.485  WARN 4116 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'aid' is not present]
+2020-10-04 09:48:57.415  WARN 4116 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'aid' is not present]
+2020-10-04 09:50:12.332  INFO 4116 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 09:50:12.351  INFO 4116 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-04 09:50:12.356  INFO 4116 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 09:50:12.371  INFO 4116 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-04 09:50:12.620  INFO 4116 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 19:05:08.180  INFO 4468 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 4468 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 19:05:08.262  INFO 4468 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 19:05:09.984  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 19:05:09.987  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 19:05:10.204  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204ms. Found 1 repository interfaces.
+2020-10-04 19:05:10.228  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 19:05:10.228  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 19:05:10.252  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2020-10-04 19:05:11.114  INFO 4468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cfe5176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-04 19:05:12.041  INFO 4468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-04 19:05:12.119  INFO 4468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-04 19:05:12.120  INFO 4468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-10-04 19:05:12.685  INFO 4468 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-04 19:05:12.700  INFO 4468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-04 19:05:12.701  INFO 4468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4337 ms
+2020-10-04 19:05:13.242  INFO 4468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-04 19:05:13.247  WARN 4468 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-10-04 19:05:14.895  INFO 4468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-04 19:05:15.312  INFO 4468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-09-30 12:18:40.783  INFO 7032 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
-2020-09-30 12:18:40.789  INFO 7032 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-09-30 12:18:41.175  INFO 7032 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-09-30 12:18:41.451  INFO 7032 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2020-09-30 12:18:42.829  INFO 7032 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:18:45.476  INFO 7032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:18:45.750  WARN 7032 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-30 12:18:46.395  INFO 7032 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-09-30 12:18:47.130  INFO 7032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-09-30 12:18:47.138  INFO 7032 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 12.726 seconds (JVM running for 14.173)
-2020-09-30 12:18:53.569  INFO 7032 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 12:18:53.570  INFO 7032 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 12:18:53.587  INFO 7032 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
-2020-09-30 12:18:53.700  INFO 7032 --- [http-nio-8081-exec-1] com.tejshri.springmvcboot.LoginAlien     : getAlien method is called 
-2020-09-30 12:18:53.808  INFO 7032 --- [http-nio-8081-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2020-09-30 12:18:54.187  INFO 7032 --- [http-nio-8081-exec-1] com.tejshri.springmvcboot.LoginAlien     : getAlien method excuted 
-2020-09-30 12:29:04.354  INFO 7032 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-09-30 12:29:04.363  INFO 7032 --- [RMI TCP Connection(18)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:29:04.366  INFO 7032 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:29:04.372  INFO 7032 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-09-30 12:29:04.576  INFO 7032 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-09-30 12:29:14.016  INFO 7832 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 7832 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 12:29:14.023  INFO 7832 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 12:29:15.574  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:29:15.577  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:29:15.711  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 1 repository interfaces.
-2020-09-30 12:29:15.733  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:29:15.733  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:29:15.757  INFO 7832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
-2020-09-30 12:29:16.772  INFO 7832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0185115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 12:29:16.882  WARN 7832 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 19
-excecution( public * com.tejshri.springmvcboot.AlienControler.getAliens())
-                   ^
-
-2020-09-30 12:29:16.901  INFO 7832 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-09-30 12:29:16.922 ERROR 7832 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 19
-excecution( public * com.tejshri.springmvcboot.AlienControler.getAliens())
-                   ^
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:721) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:534) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.BUILD-SNAPSHOT.jar:2.1.4.BUILD-SNAPSHOT]
-	at com.tejshri.springmvcboot.SpringmvcbootApplication.main(SpringmvcbootApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 19
-excecution( public * com.tejshri.springmvcboot.AlienControler.getAliens())
-                   ^
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 14 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 19
-excecution( public * com.tejshri.springmvcboot.AlienControler.getAliens())
-                   ^
-
-	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334) ~[aspectjweaver-1.9.2.jar:1.9.2]
-	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312) ~[aspectjweaver-1.9.2.jar:1.9.2]
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 36 common frames omitted
-
-2020-09-30 12:31:08.650  INFO 6568 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 6568 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 12:31:08.657  INFO 6568 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 12:31:10.488  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:31:10.490  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:31:10.622  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 1 repository interfaces.
-2020-09-30 12:31:10.643  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:31:10.644  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:31:10.669  INFO 6568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 1 repository interfaces.
-2020-09-30 12:31:11.531  INFO 6568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cffb82c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 12:31:12.440  INFO 6568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-09-30 12:31:12.508  INFO 6568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:31:12.508  INFO 6568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-09-30 12:31:13.071  INFO 6568 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-09-30 12:31:13.085  INFO 6568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:31:13.086  INFO 6568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4340 ms
-2020-09-30 12:31:13.520  INFO 6568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 12:31:13.525  WARN 6568 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2020-09-30 12:31:13.879  INFO 6568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 12:31:13.998  INFO 6568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2020-10-04 19:05:15.512  INFO 4468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-10-04 19:05:15.520  INFO 4468 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-04 19:05:15.929  INFO 4468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-04 19:05:16.245  INFO 4468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-10-04 19:05:20.129  INFO 4468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 19:05:21.903  INFO 4468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 19:05:21.986  WARN 4468 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-04 19:05:22.178  INFO 4468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-04 19:05:22.729  INFO 4468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-04 19:05:22.736  INFO 4468 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 15.351 seconds (JVM running for 17.677)
+2020-10-04 19:05:29.428  INFO 4468 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 19:05:29.446  INFO 4468 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-04 19:05:29.452  INFO 4468 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 19:05:29.465  INFO 4468 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-04 19:05:29.844  INFO 4468 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 19:59:20.493  INFO 6492 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 6492 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 19:59:20.501  INFO 6492 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 19:59:22.225  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 19:59:22.227  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 19:59:22.403  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165ms. Found 1 repository interfaces.
+2020-10-04 19:59:22.425  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 19:59:22.426  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 19:59:22.450  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2020-10-04 19:59:23.281  INFO 6492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$776da920] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-04 19:59:24.175  INFO 6492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-04 19:59:24.240  INFO 6492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-04 19:59:24.241  INFO 6492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-10-04 19:59:24.841  INFO 6492 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-04 19:59:24.856  INFO 6492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-04 19:59:24.857  INFO 6492 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4263 ms
+2020-10-04 19:59:25.295  INFO 6492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-04 19:59:25.302  WARN 6492 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-10-04 19:59:26.034  INFO 6492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-04 19:59:26.581  INFO 6492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-09-30 12:31:14.222  INFO 6568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
-2020-09-30 12:31:14.227  INFO 6568 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-09-30 12:31:14.697  INFO 6568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-09-30 12:31:14.999  INFO 6568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2020-09-30 12:31:16.632  INFO 6568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:31:17.925  INFO 6568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:31:18.007  WARN 6568 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-30 12:31:18.199  INFO 6568 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-09-30 12:31:18.658  INFO 6568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-09-30 12:31:18.665  INFO 6568 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 10.899 seconds (JVM running for 12.313)
-2020-09-30 12:31:33.608  INFO 6568 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 12:31:33.609  INFO 6568 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 12:31:33.629  INFO 6568 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
-2020-09-30 12:31:33.775  INFO 6568 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method is called 
-2020-09-30 12:31:33.897  INFO 6568 --- [http-nio-8081-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2020-09-30 12:31:34.232  INFO 6568 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method excuted 
-2020-09-30 12:31:34.233  INFO 6568 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method excuted 
-2020-09-30 12:32:39.769  INFO 6568 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-09-30 12:32:39.789  INFO 6568 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:32:39.795  INFO 6568 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:32:39.809  INFO 6568 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-09-30 12:32:39.901  INFO 6568 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-09-30 12:32:48.058  INFO 7584 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 7584 (started by Jaysh in G:\Spring\STS\STS program\springmvcboot)
-2020-09-30 12:32:48.066  INFO 7584 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
-2020-09-30 12:32:49.833  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:32:49.835  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:32:49.992  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147ms. Found 1 repository interfaces.
-2020-09-30 12:32:50.021  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-30 12:32:50.022  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-30 12:32:50.048  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
-2020-09-30 12:32:50.852  INFO 7584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17dc3027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-30 12:32:51.749  INFO 7584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-09-30 12:32:51.815  INFO 7584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:32:51.816  INFO 7584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-09-30 12:32:52.344  INFO 7584 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-09-30 12:32:52.358  INFO 7584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:32:52.359  INFO 7584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4201 ms
-2020-09-30 12:32:52.779  INFO 7584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 12:32:52.784  WARN 7584 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2020-09-30 12:32:53.127  INFO 7584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 12:32:53.235  INFO 7584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2020-10-04 19:59:26.929  INFO 6492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-10-04 19:59:26.937  INFO 6492 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-04 19:59:27.700  INFO 6492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-04 19:59:28.001  INFO 6492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-10-04 19:59:32.506  INFO 6492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 19:59:34.793  INFO 6492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 19:59:34.875  WARN 6492 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-04 19:59:35.071  INFO 6492 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-04 19:59:35.551  INFO 6492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-04 19:59:35.558  INFO 6492 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 15.908 seconds (JVM running for 18.17)
+2020-10-04 19:59:52.141  INFO 6492 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-04 19:59:52.143  INFO 6492 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-04 19:59:52.196  INFO 6492 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 52 ms
+2020-10-04 20:00:33.753  INFO 6492 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 20:00:33.761  INFO 6492 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-04 20:00:33.763  INFO 6492 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 20:00:33.769  INFO 6492 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-04 20:00:33.920  INFO 6492 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 20:00:53.403  INFO 7040 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 7040 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 20:00:53.410  INFO 7040 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 20:00:54.948  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 20:00:54.950  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 20:00:55.122  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161ms. Found 1 repository interfaces.
+2020-10-04 20:00:55.146  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 20:00:55.148  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 20:00:55.176  INFO 7040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 1 repository interfaces.
+2020-10-04 20:00:56.010  INFO 7040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13abc9aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-04 20:00:57.108  INFO 7040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-04 20:00:57.173  INFO 7040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-04 20:00:57.174  INFO 7040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-10-04 20:00:57.681  INFO 7040 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-04 20:00:57.697  INFO 7040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-04 20:00:57.698  INFO 7040 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4186 ms
+2020-10-04 20:00:58.134  INFO 7040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-04 20:00:58.140  WARN 7040 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-10-04 20:00:58.499  INFO 7040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-04 20:00:58.612  INFO 7040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-09-30 12:32:53.445  INFO 7584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
-2020-09-30 12:32:53.455  INFO 7584 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-09-30 12:32:53.845  INFO 7584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-09-30 12:32:54.106  INFO 7584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2020-09-30 12:32:55.679  INFO 7584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:32:56.922  INFO 7584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:32:57.005  WARN 7584 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-30 12:32:57.239  INFO 7584 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-09-30 12:32:57.699  INFO 7584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-09-30 12:32:57.706  INFO 7584 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 10.513 seconds (JVM running for 11.959)
-2020-09-30 12:33:22.435  INFO 7584 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 12:33:22.436  INFO 7584 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 12:33:22.460  INFO 7584 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
-2020-09-30 12:33:22.578  INFO 7584 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method is called 
-2020-09-30 12:33:22.677  INFO 7584 --- [http-nio-8081-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2020-09-30 12:33:22.981  INFO 7584 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method excuted 
-2020-09-30 12:33:22.981  INFO 7584 --- [http-nio-8081-exec-2] com.tejshri.springmvcboot.LoginAlien     : getAlien method excuted in @AfterReturning  
-2020-09-30 12:33:41.493  INFO 7584 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-09-30 12:33:41.514  INFO 7584 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:33:41.521  INFO 7584 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-30 12:33:41.537  INFO 7584 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-09-30 12:33:41.685  INFO 7584 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 20:00:58.821  INFO 7040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-10-04 20:00:58.826  INFO 7040 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-04 20:00:59.198  INFO 7040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-04 20:00:59.478  INFO 7040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-10-04 20:01:02.866  INFO 7040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 20:01:04.210  INFO 7040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 20:01:04.297  WARN 7040 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-04 20:01:04.511  INFO 7040 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-04 20:01:04.956  INFO 7040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-04 20:01:04.963  INFO 7040 --- [main] c.t.s.SpringmvcbootApplication           : Started SpringmvcbootApplication in 12.396 seconds (JVM running for 13.907)
+2020-10-04 20:01:10.415  INFO 7040 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-04 20:01:10.438  INFO 7040 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-04 20:01:10.445  INFO 7040 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-04 20:01:10.465  INFO 7040 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-04 20:01:10.568  INFO 7040 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-04 21:07:33.210  INFO 5644 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 5644 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 21:07:33.217  INFO 5644 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 21:07:39.231  INFO 5080 --- [main] c.t.s.SpringmvcbootApplication           : Starting SpringmvcbootApplication on user1 with PID 5080 (C:\Users\Jaysh\git\Spring-Boot\springmvcboot\target\classes started by Jaysh in C:\Users\Jaysh\git\Spring-Boot\springmvcboot)
+2020-10-04 21:07:39.238  INFO 5080 --- [main] c.t.s.SpringmvcbootApplication           : No active profile set, falling back to default profiles: default
+2020-10-04 21:07:41.183  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 21:07:41.185  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 21:07:41.370  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2020-10-04 21:07:41.392  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-04 21:07:41.393  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-04 21:07:41.417  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.

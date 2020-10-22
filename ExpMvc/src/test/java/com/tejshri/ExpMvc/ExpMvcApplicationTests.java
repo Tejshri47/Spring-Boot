@@ -1,4 +1,5 @@
-package com.tejshri.springmvcboot;
+package com.tejshri.ExpMvc;
+
 
 import org.junit.Test;
 
@@ -8,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringmvcbootApplicationTests {
+public class ExpMvcApplicationTests {
 
 	@Test
 	public void contextLoads() {
